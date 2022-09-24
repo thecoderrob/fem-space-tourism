@@ -660,7 +660,7 @@ svg {
   }
 
   .grid-container--home > *:first-child {
-    grid-column: 2; /* places element on column # grid-column */
+    grid-column: 2; /* places element on olumn # grid-column */
   }
 
   .grid-container--home > *:last-child {
@@ -696,6 +696,14 @@ svg {
   .grid-container--crew > .dot-indicators,
   .grid-container--technology > .numbered-indicators {
     justify-self: start;
+  }
+
+  .grid-container--crew > .crew-details {
+    justify-self: start;
+  }
+
+  .grid-container--crew > picture {
+    justify-self: end;
   }
 
   .grid-container--technology {
